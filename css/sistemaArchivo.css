@@ -26,7 +26,6 @@ body{
 }
 .carousel{
     background-color: #FCDEE4;
-    padding-top: 160px;
     padding-bottom: 30px;
     position: relative;
     margin-top: -303px;
@@ -40,6 +39,9 @@ body{
 }
 .carousel-control.right {
     background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(255,255,255,.5) 100%);
+}
+.carousel-inner{
+    padding-top: 160px;
 }
 .centerIcon {
     vertical-align: middle;
@@ -123,8 +125,10 @@ body{
         font-size: 10px;
     }
     .carousel{
-        padding-top: 80px;
         margin-top: -153px;
+    }
+    .carousel-inner{
+        padding-top: 80px;
     }
     .headers{
         font-size: 20px;
