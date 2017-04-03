@@ -41,12 +41,13 @@ body{
     background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(255,255,255,.5) 100%);
 }
 .carousel-inner{
-    padding-top: 160px;
+    /*padding-top: 160px;*/
 }
 .centerIcon {
     vertical-align: middle;
 }
 .headers{
+    padding-top: 160px;
     font-size: 40px;
     color: #2A2C2B;
     padding-left: 20%;
@@ -132,6 +133,7 @@ body{
     }
     .headers{
         font-size: 20px;
+        margin-top: -140px;
     }
     .intro1{
         font-size: 50px;
@@ -151,7 +153,6 @@ body{
     }
     .subheaders1{
         font-size: 15px;
-        margin-top: 5px;
     }
     .subheaders2{
         font-size: 13px;
